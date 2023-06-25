@@ -1,0 +1,61 @@
+#headingmain{
+   font-weight:800px;
+    color:darkblue;
+   text-align:left;
+   /*position:relative;
+   left:40px;*/
+   padding:100px;
+ position: relative;
+ left: 200px;
+ top:60px;
+    size:400px;
+
+   
+
+}
+pre{
+    font-weight:800 ;
+    position:relative;
+    bottom:60px;
+    left: 200px;
+padding:20px;
+}
+.formashu{
+
+    padding-left: 40%;
+    position:relative;
+    bottom:220px;
+    width:100px;
+    
+
+}
+
+.login{
+    background-color: blue;
+    color:white;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    position:relative;
+    height:35px;
+width: 317px;
+}
+#forgotpassword{
+    color:blue;
+    text-align: center;
+    position:relative;
+    text-decoration: none;
+    left:98px;
+width: 317px;
+}
+
+#createaccount{
+    background-color:green;
+    color:white;
+    height: 35px;
+    text-align: center;
+    position:relative;
+    left:98px;
+width: 133px;
+}
+
