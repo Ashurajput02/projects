@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="veggie">VEG MENU</button>
+    <button id="nonveggie">NON-VEG MENU</button>
+    <br>
+    
+    <script>
+        let ele=document.getElementById("veggie");
+        let box=document.getElementById("nonveggie");
+        function myveg()
+        {
+            let h1=document.createElement('h1');
+            h1.textContent="VEG MENU";
+            document.body.appendChild(h1);
+            let list=document.createElement('ol');
+            document.body.appendChild(list);
+            let l1=document.createElement('li');
+            l1.textContent="kadhai paneer";
+            list.appendChild(l1);
+            let l2=document.createElement('li');
+            l2.textContent="dal makhni";
+            list.appendChild(l2);
+            let l3=document.createElement('li');
+            l3.textContent="udad chawal";
+            list.appendChild(l3);
+            let l4=document.createElement('li');
+            l4.textContent="kadhi pakoda";
+         list.appendChild(l4);
+            console.log("jai rajputana");
+            document.body.removeChild(veggie);
+            document.body.removeChild(nonveggie);
+        };
+        function nonveg()
+        {
+            let h1=document.createElement('h1');
+            h1.textContent="NON-VEG MENU";
+            document.body.appendChild(h1);
+            let list=document.createElement('ol');
+ 
+            document.body.appendChild(list);
+            let l1=document.createElement('li');
+            l1.textContent="CHICKEN ROLL";
+            list.appendChild(l1);
+            let l2=document.createElement('li');
+            l2.textContent="CHICKEN LEGPIECE";
+            list.appendChild(l2);
+            let l3=document.createElement('li');
+            l3.textContent="CHICKEN PIZZA";
+            list.appendChild(l3);        
+            let l4=document.createElement('li');
+            l4.textContent="CHICKEN LEG PIECE";
+            list.appendChild(l4);
+            document.body.removeChild(veggie);
+    
+          document.body.removeChild(nonveggie);
+        }
+
+        ele.addEventListener('click',myveg);
+        box.addEventListener('click',nonveg);
+
+
+ /*
+        box.classList.add("text");
+        box.className+=" color";
+        box.classList.toggle("text");
+*/
+        
+        /*let ele2=ele.nextElementSibling;
+        console.log(ele2);  //for reomving property 
+        let ele3=ele2.firstElementChild;
+        console.log(ele3.innerHTML);
+        ele2.removeChild(ele3);
+         
+*/
+
+/*let ash=document.getElementById("ashubaby");
+ash.setAttribute("class","brand");
+let alas=ash.hasAttribute("class");
+console.log(alas);
+let yash=ash.getAttribute("id");
+console.log(yash);
+*/
+        
+    </script>
+</body>
+</html>
